@@ -29,7 +29,8 @@ const App: React.FC = () => {
         <Route path="/case-study/swiggy" element={<SwiggyCaseStudy />} />
         <Route path="/case-study/yes-bank" element={<YESBANKCaseStudy />} />
         <Route path="/case-study/lifestyle" element={<LifestyleCaseStudy />} />
-        <Route path="/delete-account" element={<DeleteAccount />} />
+        <Route path="/account-deletion" element={<DeleteAccount />} />
+<Route path="/delete-account" element={<Navigate to="/account-deletion" replace />} />
         <Route path="/copyright" element={<Copyright />} />
       </Routes>
     </Router>
