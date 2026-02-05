@@ -53,8 +53,8 @@ const IndustryIllustration: React.FC<{ type: string }> = ({ type }) => {
       return (
         <div className={commonClasses}>
           <svg width="200" height="200" viewBox="0 0 200 200" fill="none" className="w-1/2 h-1/2">
-            <path d="M100 30C100 30 50 45 50 100V120C50 160 100 190 100 190C100 190 150 160 150 120V100C150 45 100 30 100 30Z" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeJoin="round" />
-            <path d="M80 110L95 125L125 95" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeJoin="round" />
+            <path d="M100 30C100 30 50 45 50 100V120C50 160 100 190 100 190C100 190 150 160 150 120V100C150 45 100 30 100 30Z" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M80 110L95 125L125 95" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       );
