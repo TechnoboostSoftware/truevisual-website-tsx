@@ -127,7 +127,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenDemo }) => {
         <div className="flex flex-col md:flex-row justify-between items-center mt-8 pt-8 border-t border-gray-100 text-xs text-gray-400">
           <div className="flex gap-6 mb-4 md:mb-0">
             <button
-              onClick={() => navigate("/privacy")}
+              onClick={() => navigate("/privacy-policy")}
               className="hover:text-brand-600 transition-colors"
             >
               Privacy Policy
