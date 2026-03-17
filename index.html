@@ -5,6 +5,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TrueVisual - Trustable Visual Proofs</title>
+  <script>
+    (function restoreGitHubPagesRoute(l) {
+      if (l.search[1] === "/") {
+        const decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (segment) {
+            return segment.replace(/~and~/g, "&");
+          })
+          .join("?");
+
+        window.history.replaceState(
+          null,
+          "",
+          decoded + l.hash,
+        );
+      }
+    })(window.location);
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,7 +92,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/main-BSXthUMI.js"></script>
+  <script type="module" crossorigin src="/assets/main-BjLwETUu.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/logo-CaPY5uY-.js">
 </head>
 
