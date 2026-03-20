@@ -1,0 +1,1 @@
+import{R as e,j as r,a as o}from"./arrow-left-BI81CXqo.js";import{B as t,P as a}from"./PrivacyPolicy-CG831mHa.js";e.createRoot(document.getElementById("privacy-policy-root")).render(r.jsx(o.StrictMode,{children:r.jsx(t,{children:r.jsx(a,{})})}));
