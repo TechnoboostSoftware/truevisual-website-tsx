@@ -29,6 +29,7 @@ export default defineConfig(({ mode }) => {
         input: {
           main: path.resolve(__dirname, 'index.html'),
           accountDeletion: path.resolve(__dirname, 'account-deletion.html'),
+          privacyPolicy: path.resolve(__dirname, 'privacy-policy/index.html'),
         },
       },
     },
